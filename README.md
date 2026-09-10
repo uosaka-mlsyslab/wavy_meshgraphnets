@@ -33,14 +33,12 @@ pip install -r requirements.txt
 ## Data
 
 Datasets are not included in this repository.
-Download the MeshGraphNets datasets separately and set `${DATA}` to the
-directory where they are stored.
+Please download the CylinderFlow and FlagSimple datasets following the
+instructions in the official MeshGraphNets repository:
 
-```bash
-mkdir -p ${DATA}
-bash wavy_meshgraphnets/download_dataset.sh flag_simple ${DATA}
-bash wavy_meshgraphnets/download_dataset.sh cylinder_flow ${DATA}
-```
+https://github.com/google-deepmind/deepmind-research/tree/master/meshgraphnets
+
+Set `${DATA}` to the directory containing the downloaded datasets.
 
 Each dataset directory should contain `meta.json`, `train.tfrecord`,
 `valid.tfrecord`, and `test.tfrecord`.
