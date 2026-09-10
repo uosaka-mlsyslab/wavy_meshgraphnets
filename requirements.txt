@@ -1,0 +1,5 @@
+# TensorFlow 1.15 is installed with conda; see README.md.
+absl-py==0.15.0
+dm-sonnet==1.36
+numpy==1.19.5
+tensorflow-probability==0.8.0
